@@ -17,7 +17,7 @@ func FromRunes(rs []rune) []string {
         combos = append(combos, cAdded...)
     }
     
-    // we don't optimize the loop to remote dupes
+    // we don't optimize the loop to remove dupes
     // handle that here
     unique := map[string]int{}
     
